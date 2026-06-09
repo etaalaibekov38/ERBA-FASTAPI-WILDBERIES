@@ -11,7 +11,7 @@ from mysite.api.product_images import product_image_router
 from mysite.api.review import review_router
 
 from mysite.admin.setup import setup_admin
-shop_app = FastAPI(title="erbaaaaaaa")
+shop_app = FastAPI(title="erbaaaaaa")
 
 
 shop_app.include_router(user_router, prefix="/users",  )
